@@ -2,20 +2,27 @@
 
 This is the working area for the individual Internet-Draft, "Padding Considerations for DNS Zone Transfers-over-TLS".
 
-* [Editor's Copy](https://ShivanKaul.github.io/draft-ssahib-xot-padding/#go.draft-ssahib-xot-padding.html)
-* [Individual Draft](https://tools.ietf.org/html/draft-ssahib-xot-padding)
-* [Compare Editor's Copy to Individual Draft](https://ShivanKaul.github.io/draft-ssahib-xot-padding/#go.draft-ssahib-xot-padding.diff)
-
 ## Building the Draft
 
-Formatted text and HTML versions of the draft can be built using `make`.
+Formatted text and HTML versions of the draft can be built using `make`. 
+
+## Dependencies
+
+You'll need `xml2rfc` and `kramdown-rfc2629`.
+
+```sh
+# If using virtualenv, omit --user 
+$ pip3 install --user xml2rfc
+$ gem install kramdown-rfc2629
+```
+
+Once you have the dependencies installed:
 
 ```sh
 $ make
 ```
 
-This requires that you have the necessary software installed.  See
-[the instructions](https://github.com/martinthomson/i-d-template/blob/master/doc/SETUP.md).
+See [the instructions](https://github.com/martinthomson/i-d-template/blob/master/doc/SETUP.md) for more detailed setup instructions.
 
 
 ## Contributing
