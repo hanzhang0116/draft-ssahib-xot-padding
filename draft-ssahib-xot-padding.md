@@ -66,6 +66,18 @@ The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD",
 document are to be interpreted as described in BCP 14 {{RFC2119}} {{!RFC8174}}
 when, and only when, they appear in all capitals, as shown here.
 
+# Padding for AXoT
+
+As mentioned in {{I-D.draft-ietf-dprive-xfr-over-tls}}, the goal of padding AXoT responses would be two fold:
+
+- to obfuscate the actual size of the transferred zone to minimize information leakage about the entire contents of the zone.
+- to obfuscate the incremental changes to the zone between SOA updates to minimize information leakage about zone update activity and growth.
+
+
+ 
+
+# Padding for IXoT
+
 
 # Security Considerations
 
