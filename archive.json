@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2020-08-11T00:44:03.243606+00:00",
+  "timestamp": "2020-08-13T00:44:30.478575+00:00",
   "repo": "ShivanKaul/draft-ssahib-xot-padding",
   "labels": [
     {
@@ -29,18 +29,13 @@
       "color": "008672"
     },
     {
-      "name": "good first issue",
-      "description": "Good for newcomers",
-      "color": "7057ff"
-    },
-    {
       "name": "invalid",
       "description": "This doesn't seem right",
       "color": "e4e669"
     },
     {
       "name": "question",
-      "description": "Further information is requested",
+      "description": "Research questions",
       "color": "d876e3"
     },
     {
@@ -49,6 +44,79 @@
       "color": "ffffff"
     }
   ],
-  "issues": [],
+  "issues": [
+    {
+      "number": 1,
+      "id": "MDU6SXNzdWU2NzgwMTA0NjA=",
+      "title": "Splitting up AXFR responses by size",
+      "url": "https://github.com/ShivanKaul/draft-ssahib-xot-padding/issues/1",
+      "state": "OPEN",
+      "author": "ShivanKaul",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [
+        "question"
+      ],
+      "body": "\"How do most open source implementations split up AXFR responses? A fixed number of records per response or as many as they can fit in a TCP message length of 65535 bytes? (Note RFC5936 talks about supporting old clients that expect one record per response!).\"",
+      "createdAt": "2020-08-12T22:12:31Z",
+      "updatedAt": "2020-08-12T22:12:31Z",
+      "closedAt": null,
+      "comments": []
+    },
+    {
+      "number": 2,
+      "id": "MDU6SXNzdWU2NzgwMTQzMzI=",
+      "title": "AXFR responses order",
+      "url": "https://github.com/ShivanKaul/draft-ssahib-xot-padding/issues/2",
+      "state": "OPEN",
+      "author": "ShivanKaul",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [
+        "question"
+      ],
+      "body": "\"Do they send records in a fixed or random order - would this allow anything about the zone contents to be inferred by watching different message sizes over time if they are not all padded to the same size\"",
+      "createdAt": "2020-08-12T22:22:00Z",
+      "updatedAt": "2020-08-12T22:22:00Z",
+      "closedAt": null,
+      "comments": []
+    },
+    {
+      "number": 3,
+      "id": "MDU6SXNzdWU2NzgwMjA2Njk=",
+      "title": "What do clients do if they receive an empty responses?",
+      "url": "https://github.com/ShivanKaul/draft-ssahib-xot-padding/issues/3",
+      "state": "OPEN",
+      "author": "ShivanKaul",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [
+        "question"
+      ],
+      "body": "",
+      "createdAt": "2020-08-12T22:37:57Z",
+      "updatedAt": "2020-08-12T22:37:57Z",
+      "closedAt": null,
+      "comments": []
+    },
+    {
+      "number": 4,
+      "id": "MDU6SXNzdWU2NzgwMjIwOTk=",
+      "title": "Block size padding recommendation for AXFR",
+      "url": "https://github.com/ShivanKaul/draft-ssahib-xot-padding/issues/4",
+      "state": "OPEN",
+      "author": "ShivanKaul",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [
+        "enhancement"
+      ],
+      "body": "",
+      "createdAt": "2020-08-12T22:42:08Z",
+      "updatedAt": "2020-08-12T22:45:49Z",
+      "closedAt": null,
+      "comments": []
+    }
+  ],
   "pulls": []
 }
