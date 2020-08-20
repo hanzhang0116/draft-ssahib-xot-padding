@@ -5,9 +5,9 @@
 dprive                                                          S. Sahib
 Internet-Draft                                                  H. Zhang
 Intended status: Informational                            Salesforce.com
-Expires: 14 February 2021                                   S. Dickinson
+Expires: 21 February 2021                                   S. Dickinson
                                                               Sinodun IT
-                                                          13 August 2020
+                                                          20 August 2020
 
 
          Padding Considerations for DNS Zone Transfers-over-TLS
@@ -42,7 +42,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 14 February 2021.
+   This Internet-Draft will expire on 21 February 2021.
 
 Copyright Notice
 
@@ -53,7 +53,7 @@ Copyright Notice
 
 
 
-Sahib, et al.           Expires 14 February 2021                [Page 1]
+Sahib, et al.           Expires 21 February 2021                [Page 1]
 
 Internet-Draft       Padding Considerations for XoT          August 2020
 
@@ -109,7 +109,7 @@ Table of Contents
 
 
 
-Sahib, et al.           Expires 14 February 2021                [Page 2]
+Sahib, et al.           Expires 21 February 2021                [Page 2]
 
 Internet-Draft       Padding Considerations for XoT          August 2020
 
@@ -165,7 +165,7 @@ Internet-Draft       Padding Considerations for XoT          August 2020
 
 
 
-Sahib, et al.           Expires 14 February 2021                [Page 3]
+Sahib, et al.           Expires 21 February 2021                [Page 3]
 
 Internet-Draft       Padding Considerations for XoT          August 2020
 
@@ -221,7 +221,7 @@ Internet-Draft       Padding Considerations for XoT          August 2020
 
 
 
-Sahib, et al.           Expires 14 February 2021                [Page 4]
+Sahib, et al.           Expires 21 February 2021                [Page 4]
 
 Internet-Draft       Padding Considerations for XoT          August 2020
 
@@ -277,4 +277,4 @@ Authors' Addresses
 
 
 
-Sahib, et al.           Expires 14 February 2021                [Page 5]
+Sahib, et al.           Expires 21 February 2021                [Page 5]
