@@ -56,8 +56,9 @@ informative:
 
 # Introduction
 
-TODO
+It's not uncommon that in some companyies, each of their customers is given a subdomain under the customers' domains. In this case, if the attackers capture the AXoT traffic, they can estimate the number of customers in these companies. Similarly, when a company has a new customer, a subdomain will be created. If the attackers capture the encrypted IXoT traffic, they can estimate the number of new domains included in IXoT. After collecting IXoT for a period of time and doing some analysis, the attackers can even extract more business information, for example, whether the company is getting more bussiness than the past mont or it is losing their business.
 
+In this draft, weintroduce the padding for AXoT and IXoT to i) to obfuscate the actual size of the transferred zone to minimize information leakage about the entire contents of the zone. and 2) to obfuscate the incremental changes to the zone between SOA updates to minimize information leakage about zone update activity and growth.
 
 # Conventions and Definitions
 
@@ -72,6 +73,7 @@ As mentioned in {{I-D.draft-ietf-dprive-xfr-over-tls}}, the goal of padding AXoT
 
 - to obfuscate the actual size of the transferred zone to minimize information leakage about the entire contents of the zone.
 - to obfuscate the incremental changes to the zone between SOA updates to minimize information leakage about zone update activity and growth.
+
 
 
 A simplistic option, following the premise of the Block-Length Padding strategy recommended in [RFC8467], would be to specify
